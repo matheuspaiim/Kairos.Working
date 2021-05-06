@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css">
+    <title>Kairos Working</title>
+</head>
+
+<body>
+    <!-- Modal -->
+
+    <div class="kw-overlay kw-toggle-modal" id="kw-modal"> </div>
+    <div class="kw-modal" id="kw-modal-login">
+        <div class="kw-modal-header">
+            <h1 class="kw-modal-h1">
+                Faça seu login
+            </h1>
+            <button class="kw-close-modal kw-toggle-modal">X</button>
+            <div class="kw-modal-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="kw-text-modal">Por favor, informe seus dados</p>
+                    </div>
+                </div>
+                <div class="row kw-mar-top-15">
+                    <div class="col-sm-12">
+                        <form class="kw-form">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 kw-mar-bottom-15">
+                                    <label for="Email">Email</label>
+                                    <input type="email" name="Email" id="kw-email" class="kw-field">
+                                </div>
+
+                                <div class="col-sm-12 col-md-6 kw-mar-bottom-15">
+                                    <label for="Senha">Senha</label>
+                                    <input type="password" name="Senha" id="kw-senha" class="kw-field">
+                                </div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-sm-12 col-md-6">
+                                    <a href="../PHP/view/cliente.php" class="kw-btn-block kw-toggle-modal">Entrar</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Navbar -->
+
+    <header class="kw-topbar">
+        <div class="kw-logo">
+            <img src="../Images/logo.png" alt="Logo Kairos Working">
+        </div>
+        <nav class="kw-menu">
+            <a href="kairosworking.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="#" class="kw-toggle-modal">ADM</a>
+        </nav>
+    </header>
+
+    <!-- Contact button -->
+
+    <div class="kw-contact-info">
+        <div class="kw-contact-info-inner">
+            <h2>Contato</h2>
+            <i>kairosworking@gmail.com</i><br>
+            <i>+55 71 9 96935416</i>
+            <div class="kw-social-links">
+                <a href="https://www.instagram.com/kairosworking/?hl=pt-br" class="kw-social">
+                    <img src="../Images/instagram-big.png" alt="Link Instagram">
+                </a>
+                <a href="https://web.facebook.com/kairos.working.1" class="kw-social">
+                    <img src="../Images/facebook-big.png" alt="Link Facebook">
+                </a>
+                <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A" class="kw-social">
+                    <img src="../Images/youtube-big.png" alt="Link Youtube">
+                </a>
+            </div>
+        </div>
+        <div class="kw-corner"></div>
+    </div>
+    <button class="kw-btn-contact"></button>
+    <!-- Services -->
+
+    <div class="kw-page-wrapper">
+        <div class="container-fluid kw-services-page">
+            <div class="row">
+                <div class="col-sm-10 offset-sm-1">
+                    <ul>
+                        <li class="item">
+                            <div class="row">
+                                <div class="offset-lg-2 col-lg-5 order-2 order-lg-1">
+                                    <div class="item-info">
+                                        <h1>
+                                            Echo Studio
+                                        </h1>
+                                        <p>
+                                            A próxima dimensão de áudio. Só ouvindo para acreditar. Seja qual for a
+                                            fonte, o
+                                            Echo Studio faz sua música soar incrível. A tecnologia Dolby Atmos permite
+                                            uma
+                                            experiência de áudio multidimensional, proporcionando percepção de espaço,
+                                            clareza e profundidade.
+                                        </p>
+                                        <a
+                                            href="https://www.amazon.com.br/Echo-Studio-Smart-Speaker/dp/B07NQBGRKY/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=echo+studio&qid=1605006024&sr=8-1">
+                                            <button class="btn-service">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="item">
+                                        <div class="item-box d-none d-lg-block">
+                                            <img src="../Images/echo-studio.png" class="kw-amazon-image echo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-5 order-2 order-lg-1">
+                                    <div class="item-info">
+                                        <h1>
+                                            Bluedio Ufo
+                                        </h1>
+                                        <p>
+                                            Quer que sua música seja profunda, poderosa e balanciada? A tecnologia PPS 8
+                                            exclusiva da Bluedio faz isso se tornar verdade. Com o novo design inovativo
+                                            de
+                                            8 drivers, cada frequência é reproduzida com precisão para uma experiência
+                                            de
+                                            escuta de amplo alcance.
+                                        </p>
+                                        <a
+                                            href="https://pt.aliexpress.com/item/33058608530.html?spm=a2g0o.productlist.0.0.4a0a46a7R6xbrA&algo_pvid=38a30d2b-7dc9-49fe-b030-ce427a5d374e&algo_expid=38a30d2b-7dc9-49fe-b030-ce427a5d374e-0&btsid=0bb0624016050054936697196e471a&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_">
+                                            <button class="btn-service">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="offset-lg-2 col-lg-5 order-1 order-lg-2">
+                                    <div class="item-thumb">
+                                        <div class="item-box d-none d-lg-block">
+                                            <img src="../Images/ufo.png" alt="Bluedio Ufo" class="kw-aliexpress-image ufo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item">
+                            <div class="row">
+                                <div class="offset-lg-2 col-lg-5 order-2 order-lg-1">
+                                    <div class="item-info">
+                                        <h1>
+                                            Kindle Paperwhite
+                                        </h1>
+                                        <p>
+                                            Nosso mais fino e leve Kindle Paperwhite já lançado, com um design
+                                            elegante
+                                            e
+                                            moderno para que você possa ler confortavelmente por horas. Apresenta
+                                            nossa
+                                            característica tela antirreflexo de 300 ppi, com texto hipernítido e
+                                            duas
+                                            vezes
+                                            mais espaço de armazenamento que a geração anterior. E mais, uma recarga
+                                            dura
+                                            semanas, não horas.
+                                        </p>
+                                        <a
+                                            href="https://www.amazon.com.br/Novo-Kindle-Paperwhite-Agora-prova-agua/dp/B0773XBMB6/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=32U00PX9EBC8L&dchild=1&keywords=kindle+papperwhite&qid=1605005994&sprefix=kindle+papp%2Caps%2C351&sr=8-1">
+                                            <button class="btn-service">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="item-thumb">
+                                        <div class="item-box-pw d-none d-lg-block">
+                                            <img src="../Images/kindle-paperwhite.png" alt="Kindle Paperwhite"
+                                                class="kw-amazon-image kindle">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item" data-slide="4">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="item-info">
+                                        <h1>
+                                            Mi Band 5
+                                        </h1>
+                                        <p>
+                                            A Mi Band 5 agora conta com 11 modos de esportes. Corrida ao ar livre e
+                                            indoor,
+                                            caminhada rápida, ciclismo outdoor e indoor, natação, estilo livre que na
+                                            verdade monitora apenas a sua frequência cardíaca e estima as calorias
+                                            gastas,
+                                            elíptico, pular corda, ioga e máquina de remo. Além de monitoramento
+                                            cardíaco,
+                                            de estresse e sono, também possui carregador magnético e bateria que dura
+                                            até 14
+                                            dias.
+                                        </p>
+                                        <a
+                                            href="https://pt.aliexpress.com/item/4001285384949.html?spm=a2g0o.productlist.0.0.4eeb17daNCtojq&algo_pvid=62b7cd7f-e3a5-4ce2-96f3-fbac5141067e&algo_expid=62b7cd7f-e3a5-4ce2-96f3-fbac5141067e-0&btsid=0bb0624716050055209742626eca3f&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_">
+                                            <button class="btn-service">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="offset-lg-2 col-lg-5">
+                                    <div class="item-thumb">
+                                        <div class="item-box-last">
+                                            <img src="../Images/mi-band 5.png" alt=" Mi Band 5"
+                                                class="kw-aliexpress-image mi5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>
