@@ -1,3 +1,0 @@
-kairosworking@gmail.com
-kairos123
-acesso ao CRUD através da opção ADM na navbar
