@@ -1,23 +1,23 @@
 
-var btnContact = document.querySelector('.kw-btn-contact')
-var toggleModal = document.querySelectorAll('.kw-toggle-modal')
+var btnContact = document.querySelector('.btn-contact')
+var toggleModal = document.querySelectorAll('.toggle-modal')
 
 /* ABRINDO E FECHANDO INFORMAÇÕES DE CONTATO */
 btnContact.addEventListener('click', function() {
-    var boxContact = document.querySelector('.kw-contact-info')
-    boxContact.classList.toggle('kw-is-open');
-    this.classList.toggle('kw-change-icon');
+    var boxContact = document.querySelector('.contact-info')
+    boxContact.classList.toggle('is-open');
+    this.classList.toggle('change-icon');
 });
 
 /* ABRINDO E FECHANDO O MODAL DE LOGIN */
 
 for(var i = 0; i < toggleModal.length; i++) {
     toggleModal[i].addEventListener('click', function() {
-        var overlay = document.querySelector('.kw-overlay')
-        var modalLogin = document.querySelector('#kw-modal-login')
+        var overlay = document.querySelector('.overlay')
+        var modalLogin = document.querySelector('#modal-login')
 
-        overlay.classList.toggle('kw-is-open');
-        modalLogin.classList.toggle('kw-is-open');
-        modalLogin.classList.toggle('kw-slide-in');
+        overlay.classList.toggle('is-open');
+        modalLogin.classList.toggle('is-open');
+        modalLogin.classList.toggle('slide-in');
     });
 }   

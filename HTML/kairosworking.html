@@ -16,43 +16,35 @@
 
     <!-- Modal -->
 
-    <div class="kw-overlay kw-toggle-register"></div>
-    <div class="kw-modal" id="kw-modal-register">
-        <div class="kw-modal-header">
-            <h1 class="kw-modal-h1">
+    <div class="overlay toggle-modal"></div>
+    <div class="modal" id="modal-login">
+        <div class="modal-header">
+            <h1 class="modal-h1">
                 Faça seu cadastro
             </h1>
-            <button class="kw-close-modal kw-register-modal">X</button>
-            <div class="kw-modal-body">
+            <button class="close-modal toggle-modal">X</button>
+            <div class="modal-body">
                 <div class="row">
                     <div class="col-sm-12">
-                        <p class="kw-text-modal">Por favor, informe seus dados</p>
+                        <p class="text-modal">Por favor, informe seus dados</p>
                     </div>
                 </div>
-                <div class="row kw-mar-top-15">
+                <div class="row mar-top-15">
                     <div class="col-sm-12">
-                        <form class="kw-form">
+                        <form class="form">
                             <div class="row">
-                                <div class="col-sm-12 col-sm-6 kw-mar-bottom-15">
+                                <div class="col-sm-12 col-sm-6 mar-bottom-15">
                                     <label for="Email">Email</label>
-                                    <input type="email" name="Email" id="kw-email" class="kw-field">
+                                    <input type="email" name="Email" id="email" class="field">
                                 </div>
-                                <div class="col-sm-12 col-sm-6 kw-mar-bottom-15">
-                                    <label for="Nome">Nome</label>
-                                    <input type="text" name="Nome" id="kw-nome" class="kw-field">
-                                </div>
-                                <div class="col-sm-12 col-sm-6 kw-mar-bottom-15">
+                                <div class="col-sm-12 col-sm-6 mar-bottom-15">
                                     <label for="Senha">Senha</label>
-                                    <input type="text" name="Senha" id="kw-senha" class="kw-field">
-                                </div>
-                                <div class="col-sm-12 col-sm-6 kw-mar-bottom-15">
-                                    <label for="Email">Telefone</label>
-                                    <input type="tel" name="Telefone" id="kw-telefone" class="kw-field">
+                                    <input type="text" name="Senha" id="senha" class="field">
                                 </div>
                             </div>
                             <div class="row justify-content-end">
                                 <div class="col-sm-12 col-sm-6">
-                                    <button class="kw-btn-block kw-registration-modal">Enviar</button>
+                                    <button class="btn-block toggle-modal">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -64,13 +56,12 @@
 
     <!-- Navbar -->
 
-    <header class="kw-topbar">
-        <div class="kw-logo">
+    <header class="topbar">
+        <div class="logo">
             <img src="../Images/logo.png" alt="Logo Kairos Working">
         </div>
-        <nav class="kw-menu kw-menu-mobile">
+        <nav class="menu menu-mobile">
             <a href="kairosworking.html">Home</a>
-            <a href="sobre.html">Sobre</a>
             <a href="contato.html">Contato</a>
             <a href="serviços.html">Serviços</a>
             <a href="../PHP/view/login.php">ADM</a>
@@ -79,13 +70,12 @@
 
     <!-- Mobile Navbar -->
 
-    <header class="kw-topbar-mobile">
-        <div class="kw-logo-small">
+    <header class="topbar-mobile">
+        <div class="logo-small">
             <img src="../Images/logo-small.png" alt="Logo Kairos Working">
         </div>
-        <nav class="kw-menu">
+        <nav class="menu">
             <a href="kairosworking.html">Home</a>
-            <a href="sobre.html">Sobre</a>
             <a href="contato.html">Contato</a>
             <a href="serviços.html">Serviços</a>
             <a href="../PHP/view/login.php">ADM</a>
@@ -94,71 +84,74 @@
 
     <!-- Contact button -->
 
-    <div class="kw-contact-info">
-        <div class="kw-contact-info-inner">
+    <div class="contact-info">
+        <div class="contact-info-inner">
             <h2>Contato</h2>
             <i>kairosworking@gmail.com</i><br>
             <i>+55 71 9 96935416</i>
-            <div class="kw-social-links">
-                <a href="https://www.instagram.com/kairosworking/?hl=pt-br" class="kw-social">
+            <div class="social-links">
+                <a href="https://www.instagram.com/kairosworking/?hl=pt-br" class="social">
                     <img src="../Images/instagram-big.png" alt="Link Instagram">
                 </a>
-                <a href="https://web.facebook.com/kairos.working.1" class="kw-social">
+                <a href="https://web.facebook.com/kairos.working.1" class="social">
                     <img src="../Images/facebook-big.png" alt="Link Facebook">
                 </a>
-                <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A" class="kw-social">
+                <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A" class="social">
                     <img src="../Images/youtube-big.png" alt="Link Youtube">
                 </a>
             </div>
         </div>
-        <div class="kw-corner"></div>
+        <div class="corner"></div>
     </div>
-    <button class="kw-btn-contact"></button>
+    <button class="btn-contact"></button>
 
     <!-- Home -->
 
-    <div class="kw-page-wrapper">
-        <div class="kw-home">
-            <div class="kw-astronaut">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-9 kw-display-text">
-                            <div class="offset-sm-1 col-sm-6">
-                                <h1 class="kw-home-title">Kairos Working</h1>
-                                <fieldset class="field1h">
-                                    <p>Aqui nós mostramos pra você as melhores promoções atuais do
-                                        site
-                                        <span>Amazon</span> e também da <span>Aliexpress</span>. Estamos sempre
-                                        atualizando
-                                        nossa
-                                        página com os
-                                        melhores produtos e
-                                        disponibilizando aqui pra você, facilitando suas buscas e ajudando você a
-                                        encontrar
-                                        os
-                                        melhores preços.
-                                    </p>
-                                </fieldset>
+    <section>
+        <div class="page-wrapper">
+            <div class="home">
+                <div class="astronaut">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-9 display-text">
+                                <div class="offset-sm-1 col-sm-6">
+                                    <h1 class="home-title">Kairos Working</h1>
+                                    <fieldset class="field1h">
+                                        <p>Aqui nós mostramos pra você as melhores promoções atuais do
+                                            site
+                                            <span>Amazon</span> e também da <span>Aliexpress</span>. Estamos sempre
+                                            atualizando
+                                            nossa
+                                            página com os
+                                            melhores produtos e
+                                            disponibilizando aqui pra você, facilitando suas buscas e ajudando você a
+                                            encontrar
+                                            os
+                                            melhores preços.
+                                        </p>
+                                    </fieldset>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row register">
-                        <div class="offset-sm-4 col-sm-6 ">
-                            <div class="offset-sm-7 col-sm-6 ">
-                                <fieldset class="field2h">
-                                    <p class="kw-home-text2">
-                                        Clique abaixo e cadastre-se para receber todas as promoções no seu email.
-                                    </p>
-                                </fieldset>
-                                <button class="kw-btn kw-toggle-modal">Cadastre-se</button>
-                                <button class="kw-btn-mobile kw-toggle-modal">Cadastre-se</button>
+                        <div class="row register">
+                            <div class="offset-sm-4 col-sm-6 ">
+                                <div class="offset-sm-7 col-sm-6 ">
+                                    <fieldset class="field2h">
+                                        <p class="home-text2">
+                                            Clique abaixo e cadastre-se para receber todas as promoções no seu email.
+                                        </p>
+                                    </fieldset>
+                                    <button class="btn toggle-modal">Cadastre-se</button>
+                                    <button class="btn-mobile toggle-modal">Cadastre-se</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <script src="../JS/main.js"></script>
 </body>
 

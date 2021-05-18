@@ -15,56 +15,14 @@
 
 <body>
 
-    <!-- Modal -->
-
-    <div class="kw-overlay kw-toggle-modal" id="kw-modal"> </div>
-    <div class="kw-modal" id="kw-modal-login">
-        <div class="kw-modal-header">
-            <h1 class="kw-modal-h1">
-                Faça seu login
-            </h1>
-            <button class="kw-close-modal kw-toggle-modal">X</button>
-            <div class="kw-modal-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="kw-text-modal">Por favor, informe seus dados</p>
-                    </div>
-                </div>
-                <div class="row kw-mar-top-15">
-                    <div class="col-sm-12">
-                        <form class="kw-form">
-                            <div class="row">
-                                <div class="col-sm-12 col-sm-6 kw-mar-bottom-15">
-                                    <label for="Email">Email</label>
-                                    <input type="email" name="email" id="kw-email" class="kw-field">
-                                </div>
-                                <div class="col-sm-12 col-sm-6 kw-mar-bottom-15">
-                                    <label for="Senha">Senha</label>
-                                    <input type="password" name="senha" id="kw-senha" class="kw-field">
-                                </div>
-                            </div>
-                            <div class="row justify-content-end">
-                                <div class="col-sm-12 col-sm-6">
-                                    <a href="../PHP/view/cliente.php" class="kw-btn-block kw-toggle-modal">Entrar</a>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Navbar -->
 
-    <header class="kw-topbar">
-        <div class="kw-logo">
+    <header class="topbar">
+        <div class="logo">
             <img src="../Images/logo.png" alt="Logo Kairos Working">
         </div>
-        <nav class="kw-menu">
+        <nav class="menu">
             <a href="kairosworking.html">Home</a>
-            <a href="sobre.html">Sobre</a>
             <a href="contato.html">Contato</a>
             <a href="serviços.html">Serviços</a>
             <a href="../PHP/view/login.php">ADM</a>
@@ -73,13 +31,12 @@
 
     <!-- Mobile Navbar -->
 
-    <header class="kw-topbar-mobile">
-        <div class="kw-logo-small">
+    <header class="topbar-mobile">
+        <div class="logo-small">
             <img src="../Images/logo-small.png" alt="Logo Kairos Working">
         </div>
-        <nav class="kw-menu">
+        <nav class="menu">
             <a href="kairosworking.html">Home</a>
-            <a href="sobre.html">Sobre</a>
             <a href="contato.html">Contato</a>
             <a href="serviços.html">Serviços</a>
             <a href="../PHP/view/login.php">ADM</a>
@@ -89,107 +46,116 @@
 
     <!-- Contact button -->
 
-    <div class="kw-contact-info">
-        <div class="kw-contact-info-inner">
+    <div class="contact-info">
+        <div class="contact-info-inner">
             <h2>Contato</h2>
             <i>kairosworking@gmail.com</i><br>
             <i>+55 71 9 96935416</i>
-            <div class="kw-social-links">
-                <a href="https://www.instagram.com/kairosworking/?hl=pt-br" class="kw-social">
+            <div class="social-links">
+                <a href="https://www.instagram.com/kairosworking/?hl=pt-br" class="social">
                     <img src="../Images/instagram-big.png" alt="Link Instagram">
                 </a>
-                <a href="https://web.facebook.com/kairos.working.1" class="kw-social">
+                <a href="https://web.facebook.com/kairos.working.1" class="social">
                     <img src="../Images/facebook-big.png" alt="Link Facebook">
                 </a>
-                <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A" class="kw-social">
+                <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A" class="social">
                     <img src="../Images/youtube-big.png" alt="Link Youtube">
                 </a>
             </div>
         </div>
-        <div class="kw-corner"></div>
+        <div class="corner"></div>
     </div>
-    <button class="kw-btn-contact"></button>
+    <button class="btn-contact"></button>
 
     <!-- Contact -->
 
-    <div class="kw-page-wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="offset-sm-1 col-sm-8 kw-contact">
-                    <div class="offset-sm-1 col-sm-6">
-                        <fieldset class="field1c">
-                            <h1 class="kw-contact-title">Kairos Working</h1>
-                            <li>Instagram</li>
-                            <p class="kw-contact-text">
-                                Lá no instagram nós estamos postando promoções diárias, então se não quiser
-                                perder as promoções do
-                                dia, nos segue lá.
-                            </p>
-                            <li>Facebook</li>
-                            <p class="kw-contact-text">
-                                Na nossa página do facebook nós postamos as melhores promoções de diversas
-                                categorias de produtos,
-                                clica no link abaixo e segue lá.
-                                <li>Youtube</li>
-                            <p class="kw-contact-text">
-                                No nosso canal do youtube nós fazemos reviews de diversos produtos, então se
-                                você quiser saber um
-                                pouco mais do produto antes de comprar, se inscreve no canal
-                            </p>
-                        </fieldset>
-                        <div class="kw-contact-top">
-                            <div class="row">
-                                <div class="offset-sm-8 col-sm-7">
-                                    <div class="offset-sm-9 col-sm-12">
-                                        <p class="kw-whatsapp">Pode nos contatar no whatsapp, estamos disponíveis das
-                                            08:00
-                                            às
-                                            21:00, e nos fins de
-                                            semana, das
-                                            07:00 às 14:00. 71 9 996935416
-                                        </p>
+    <div class="page-wrapper">
+    <section class="section-bgvideo">
+            <div class="bgvideo">
+                <video class="Amazon-Aliexpress" autoplay muted loop>
+                    <source src="../Images/amz.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-sm-1 col-sm-8 contact">
+                        <div class="offset-sm-1 col-sm-6">
+                            <h1 class="contact-title">Kairos Working</h1>
+                            <fieldset class="contactfield">
+                                <p class="contact-text">Nós como uma empresa de business to business (B2B) divulgamos
+                                    e
+                                    facilitamos o acesso aos produtos da <span>Amazon</span> e da
+                                    <span>Aliexpress</span>
+                                    para
+                                    os clientes fazerem uma
+                                    melhor escolha, porém podendo também na lista de classificados, escolher
+                                    qual link (produto) o agradou mais.
+                                </p>
+    
+                                <p class="contact-text">
+                                    Nós geramos links afiliados das empresas <span>Amazon</span> e
+                                    <span>Aliexpress</span>,
+                                    trazendo
+                                    mais vendas para as plataformas e recebendo comissões para cada venda gerada no
+                                    nosso
+                                    link.
+                                </p>
+                            </fieldset>
+                            <div class="contact-top">
+                                <div class="row">
+                                    <div class="offset-sm-8 col-sm-7">
+                                        <div class="offset-sm-9 col-sm-12">
+                                            <p class="whatsapp">Pode nos contatar no whatsapp, estamos disponíveis
+                                                das
+                                                08:00
+                                                às
+                                                21:00, e nos fins de
+                                                semana, das
+                                                07:00 às 14:00. 71 9 996935416
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="offset-sm-1 col-sm-6">
+                                <div class="row">
                                     <div class="offset-sm-1 col-sm-6">
-                                        <p class="kw-email">Tem alguma dúvida?<br>
-                                            kairosworking@gmail.com</p>
+                                        <div class="offset-sm-1 col-sm-6">
+                                            <p class="email">Tem alguma dúvida?<br>
+                                                kairosworking@gmail.com</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="offset-sm-9 col-sm-12">
-                                    <div class="offset-sm-10 col-sm-11 kw-contact-links">
-                                        <a href="https://www.instagram.com/kairosworking/?hl=pt-br"
-                                            class="kw-instagram">
-                                            <img src="../Images/instagram-big.png" alt="Link Instagram">
-                                        </a>
-                                        <a href="https://web.facebook.com/kairos.working.1" class="kw-facebook">
-                                            <img src="../Images/facebook-big.png" alt="Link Facebook">
-                                        </a>
-                                        <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A"
-                                            class="kw-youtube">
-                                            <img src="../Images/youtube-big.png" alt="Link Youtube">
-                                        </a>
+                                <div class="row">
+                                    <div class="offset-sm-9 col-sm-12">
+                                        <div class="offset-sm-10 col-sm-11 contact-links">
+                                            <a href="https://www.instagram.com/kairosworking/?hl=pt-br"
+                                                class="instagram">
+                                                <img src="../Images/instagram-big.png" alt="Link Instagram">
+                                            </a>
+                                            <a href="https://web.facebook.com/kairos.working.1" class="facebook">
+                                                <img src="../Images/facebook-big.png" alt="Link Facebook">
+                                            </a>
+                                            <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A"
+                                                class="youtube">
+                                                <img src="../Images/youtube-big.png" alt="Link Youtube">
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="offset-sm-9 col-sm-12">
-                                    <div class="offset-sm-10 col-sm-11 kw-contact-links-small">
-                                        <a href="https://www.instagram.com/kairosworking/?hl=pt-br"
-                                            class="kw-instagram-small">
-                                            <img src="../Images/instagram-small.png" alt="Link Instagram">
-                                        </a>
-                                        <a href="https://web.facebook.com/kairos.working.1" class="kw-facebook-small">
-                                            <img src="../Images/facebook-small.png" alt="Link Facebook">
-                                        </a>
-                                        <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A"
-                                            class="kw-youtube-small">
-                                            <img src="../Images/youtube-small.png" alt="Link Youtube">
-                                        </a>
+                                <div class="row">
+                                    <div class="offset-sm-9 col-sm-12">
+                                        <div class="offset-sm-10 col-sm-11 contact-links-small">
+                                            <a href="https://www.instagram.com/kairosworking/?hl=pt-br"
+                                                class="instagram-small">
+                                                <img src="../Images/instagram-small.png" alt="Link Instagram">
+                                            </a>
+                                            <a href="https://web.facebook.com/kairos.working.1" class="facebook-small">
+                                                <img src="../Images/facebook-small.png" alt="Link Facebook">
+                                            </a>
+                                            <a href="https://www.youtube.com/channel/UCmG2EhfOwSjpPMX4LjGY__A"
+                                                class="youtube-small">
+                                                <img src="../Images/youtube-small.png" alt="Link Youtube">
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +164,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <script src="../JS/main.js"></script>
 </body>
 
