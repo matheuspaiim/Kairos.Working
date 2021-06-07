@@ -751,7 +751,6 @@ li {
         display: block;
     }
 
-    /* Mobile Nav */
     .topbar {
         display: none;
     }
@@ -760,36 +759,6 @@ li {
         display: none;
     }
 
-    .logo-small {
-        position        : relative;
-        top             : 0;
-        left            : 15%;
-        float           : left;
-        background-color: #2CCB69;
-        border-radius   : 0 0 12px 0;
-        text-align      : center;
-        box-shadow      : 3px 3px 4px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .topbar-mobile {
-        position        : fixed;
-        display         : block;
-        width           : 100%;
-        height          : auto;
-        top             : 0;
-        left            : 0;
-        background-color: transparent;
-        text-shadow     : #000 1px 1px;
-        z-index         : 900;
-    }
-
-    .topbar-mobile a {
-        position : relative;
-        right    : -1%;
-        top      : -3%;
-        font-size: 8px;
-        width    : auto;
-    }
 }
 
 @media only screen and (max-width: 575px) and (min-width: 451px) {
@@ -1777,4 +1746,4 @@ li {
     .btn-mobile {
         display: none;
     }
-}
+} 
