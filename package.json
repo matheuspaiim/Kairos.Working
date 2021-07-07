@@ -1,0 +1,22 @@
+{
+  "name": "kairosworking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass SASS/main.scss CSS/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuspaiim/Kairos.Working.git"
+  },
+  "author": "Matheus Paim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheuspaiim/Kairos.Working/issues"
+  },
+  "homepage": "https://github.com/matheuspaiim/Kairos.Working#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
