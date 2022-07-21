@@ -14,8 +14,8 @@ class Usuario{
         $stmt = $this->conn->prepare($sql);
         return $stmt;
     }
-    public function login($email, $senha){
-
+    public function login($email, $senha)
+    {
         $sql = "SELECT * FROM usuario WHERE email = :email AND senha = :senha";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindValue("email", $email);
@@ -31,8 +31,22 @@ class Usuario{
         }else{
             return false;
         }
-
-
     }
     
+    public function insert($email, $senha){
+        try{
+            $sql = "INSERT INTO usuario(email, senha)
+                    VALUES(:email, :senha";
+
+            $stmt = $this->conn->prepare($sql);
+            $stmt->bindValue("email", $email);
+            $stmt->bindValue("senha", md5($senha));
+            $stmt->execute();
+            return $stmt;
+        }catch(PDOException $e){
+            echo("Error: ".$e->getMessage());
+        }finally{
+            $this->conn = null;
+        }
+    }       
 }

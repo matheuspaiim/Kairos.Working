@@ -116,7 +116,7 @@
 
     <header class="kw-topbar">
         <nav class="kw-menu">
-            <a href="../index.html">Home</a>
+            <a href="../../index.html">Home</a>
             <a href="cliente.php">Cliente</a>
             <a href="produto.php">Produto</a>
             <a href="venda.php">Venda</a>

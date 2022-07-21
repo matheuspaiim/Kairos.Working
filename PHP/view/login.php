@@ -7,7 +7,7 @@ require_once 'loginhead.php';
     <!-- Modal -->
 
 
-    <form class="form-horizontal col-sm-offset-3 col-sm-7" action="../controle/logar.php" method="POST">
+    <form class="form-horizontal col-sm-offset-3 col-sm-7" action="../controle/ctr_logar.php" method="POST">
         <div class="col-sm-offset-3 col-sm-10">
             <h1 class="kw-modal-h1">
                 Login administrativo
