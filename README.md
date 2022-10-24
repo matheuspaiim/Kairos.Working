@@ -2,7 +2,7 @@
 
 ### Sistema Web e-commerce com sistema de login e CRUD.
 
-Você pode abrir diretamente o projeto no Heruko [nesse link](https://kairosworking.herokuapp.com)
+Você pode abrir diretamente o projeto no Heroku [nesse link](https://kairosworking.herokuapp.com)
 
 ## Tecnologias utilizadas:
 
